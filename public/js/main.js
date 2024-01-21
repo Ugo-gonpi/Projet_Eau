@@ -7,6 +7,8 @@ let eauRestante = document.querySelector("#remaining") //<quantité d'eau restan
 
 // console.log(verresEau);
 
+//Ici nous avons la boucle qui sert a remplir et vider les verres d'eau, en utilisant un case pour chaque verre
+
 for(let i = 0; i < verresEau.length; i++) {
     verresEau[i].addEventListener("click", (e) => {
 
