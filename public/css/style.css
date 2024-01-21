@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #2a3649
+}
+
+#content {
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+    gap: 30px;
+}
+
+#content p {
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+    
+#title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+     
+#title h1 {
+    margin: 0;
+    color: rgb(81, 148, 255);
+}
+
+#title p {
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#quantity {
+    height: 20%;
+    width: 55%;
+    border-radius: 0px 0px 30px 30px;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 900;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+    
+#remaining {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+#remaining p {
+    color: rgb(45, 450, 125);
+}
+
+#current {
+    height: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(81, 148, 255);
+    color: white;
+    border-radius: 0px 0px 25px 25px;
+    z-index: -1;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+#current p {
+    color: black
+}
+
+.glassesContainer {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.glassesContainer button {
+    padding: 0;
+    width: 22%;
+    height: 100%;
+    border-radius: 0px 0px 20px 20px;
+    border: none;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: none;
+    margin-top: 25px;
+}
+
+.glassesContainer button div {
+    font-weight: 900;
+    font-size: 20px;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 15px 15px;
+    z-index: -1;
+    transition: all 0.2s ease-in-out;
+}
+
+.fullGlass {
+    background: rgb(81, 148, 255);
+}
+
